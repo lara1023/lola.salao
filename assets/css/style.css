@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-header{
+    background-color: #ffe6ff;
+}
+.bg-fundo{
+    background-color: #ffe6ff;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .borTop{
+        border-top: 1px solid #dee2e6 !important;
+    }
+    .borBottom{
+        border-bottom: 1px solid #dee2e6 !important;
+    }
+    .footer{
+        top: 230rem;
+    }    
+}
