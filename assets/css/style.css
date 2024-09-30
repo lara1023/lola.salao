@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 .bg-header{
     background-color: #ffe6ff;
@@ -9,7 +8,23 @@
 .bg-fundo{
     background-color: #ffe6ff;
 }
-
+.bt-color{
+    background-color: palevioletred;
+}
+img{
+    width: 30rem;
+    margin: 1rem;
+    height: 20rem;
+}
+carousel{
+    width: 30rem;
+}
+card-body{
+    background-color: #ffe6ff;
+}
+.footer-bg{
+    background-color: $pink-200;
+}
 
 @media only screen and (max-width: 990px) {
     .borTop{
